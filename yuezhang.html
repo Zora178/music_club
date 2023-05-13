@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/init.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/yuezhang.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 主导航 start -->
+  <div class="header">
+    <div class="header-in">
+      <div class="logo">
+        <img src="./images/logo_03.png" alt="" />
+        <div class="flag-word">
+          <strong>蓝莓派</strong>
+          <h3>和音乐一起分享时光</h3>
+        </div>
+      </div>
+      <div class="main-nav">
+        <ul>
+          <li><a href="./index.html" class="navs ">首页</a></li>
+          <li><a href="./yuezhang.html" class="navs on">乐章</a></li>
+          <li><span class="ts-num">12</span><a href="./tingshuo.html" class="navs">听说</a></li>
+          <li><a href="./chat.html" class="navs">聊聊</a></li>
+          <li><a href="./chengpin.html" class="navs">诚品</a></li>
+          <li><a href="./blueberryjam.html" class="navs">蓝莓酱</a></li>
+        </ul>
+      </div>
+      <div class="login">
+        <div class="search">
+          <form>
+            <input type="search" id="search">
+            <label for="search" id="search-botton"></label>
+          </form>
+        </div>
+        <div class="login-register">
+          <a href="#" class="login">登录</a>
+          <a href="#" class="register">注册</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 主导航 end -->
+
+  <!-- 内容主容器 -->
+  <div class="main">
+    <!-- 歌曲信息start -->
+    <div class="song-introduce">
+      <div class="song-info">
+        <div class="song-title"><a href="#">那英【《何以笙箫默》电影插曲】</a></div>
+        <div class="play-num"><span>43万</span>播放</div>
+      </div>
+      <div class="song-details">
+        <img src="./images/naying.png" alt="">
+        <div class="song-intro-content">以翻唱偶像苏芮的歌曲而进入歌坛；同年，以一曲西北风格的歌曲《山沟沟》受到关注 。1990年，凭借歌曲《山不转水转》获得“全国电台”评选冠军、全国青年歌手新人奖
+          。1994年，在台湾发行了首张个人音乐专辑《为你朝思暮想》 。之后，又相继推出了《白天不懂夜的黑》、《征服》等专辑。</div>
+      </div>
+      <div class="song-control">
+        <div class="playutil">
+          <audio src="./res/mo.mp3" id="audio"></audio>
+          <div class="control">
+            <div class="buttons">
+              <a href="#" id="playBtn">
+                <img id="playImg" src="./images/play-btn_03.png" alt="">
+              </a>
+            </div>
+          </div>
+          <p id="passTime">00:00</p>
+          <div class="progress-bar">
+            <div class="progress-bar-passed"></div>
+          </div>
+          <p id="totalTime">00:00</p>
+        </div>
+      </div>
+    </div>
+    <!-- 歌曲信息end -->
+    <!-- 文章start -->
+    <div class="common-details">
+      <div class="artical">
+        <div class="artical-title">
+          <h3 class="artical-title-h3"></h3>
+          <div class="artical-tilte-info">
+            <div class="eye-wechat">
+              <span class="eye-num"></span>
+              <span class="wechat-num"></span>
+            </div>
+            <div class="create-time">
+              创建时间:
+              <span class="current-date"></span>
+            </div>
+          </div>
+        </div>
+        <div class="artical-content">
+          <div class="blog-details">
+            <div class="blog-details-content">
+              <!-- 文章内容本身 -->
+            </div>
+            <div class="blog-details-labels">
+              <span class="label label1"></span>
+              <span class="label label2"></span>
+              <span class="label label3"></span>
+            </div>
+            <div class="blog-details-end">
+              <img src="./images/endIcon_03.png" alt="">
+            </div>
+          </div>
+          <!-- 相关阅读start -->
+          <div class="related-read">
+            <div class="related-read-title"><a href="#">相关阅读</a>
+            </div>
+            <div class="related-read-content">
+              <!-- <div class="related-read-content-show"><a href="#">
+                  <img class="related-read-pic" src="./images/related-read_03.png" alt="">
+                  <p class="related-read-summary">人散后计划走一趟后面车上。湖底，尽管风机已经有点。美丽景色也就风景记录在</p>
+                </a></div>
+               -->
+            </div>
+            <div class="related-read-share">
+              <div class="share-left">
+                <div class="share-left-icons">
+                  <a href="#"><img src="./images/shareIcon_03.png" alt=""></a>
+                  <a href="#"><img src="./images/shareIcon_03.png" alt=""></a>
+                  <a href="#"><img src="./images/shareIcon_03.png" alt=""></a>
+                  <a href="#"><img src="./images/shareIcon_03.png" alt=""></a>
+                </div>
+                <span>喜欢就分享出去吧</span>
+              </div>
+              <div class="share-right">
+                <a href="#">分享长微博</a>
+                <a href="#"><img src="./images/zan-big_03.png" alt="">赞<span class="blog-zan-num">45</span></a>
+                <a href="#"><img src="./images/favorites_03.png" alt=""></a>
+                <a href="#" class="report">举报</a>
+              </div>
+            </div>
+          </div>
+          <!-- 相关阅读end -->
+          <!-- 评论start -->
+          <div class="blog-comment">
+            <div class="who-zan">
+              <h4>赞过的人</h4>
+              <div class="who-zan-list">
+                <div class="who-zan-people">
+                  <img src="./images/tupian_07.png" alt="">
+                  <span class="who-zan-people-name">许西</span>
+                </div>
+                <div class="who-zan-people">
+                  <img src="./images/tupian_07.png" alt="">
+                  <span class="who-zan-people-name">许二</span>
+                </div>
+                <div class="who-zan-people">
+                  <img src="./images/tupian_07.png" alt="">
+                  <span class="who-zan-people-name">许三</span>
+                </div>
+                <div class="who-zan-people">
+                  <img src="./images/tupian_07.png" alt="">
+                  <span class="who-zan-people-name">许四</span>
+                </div>
+              </div>
+            </div>
+            <div class="theme-pic">
+              <a href="#"><img src="./images/comment-pic_03.png" alt=""></a>
+              <div>
+              </div>
+              <div>评论框</div>
+              <div class="ts-popcomment">
+                <span class="ts-popcomment-icon">
+                  <img src="./images/listenSpeak/touxiang.png" alt="">
+                </span>
+                <div class="ts-comment-content">
+                  <b>小夏同学</b>
+                  <i>2030-12-12 16:30:30</i>
+                  <p>内地双人流行咖啡厅，可合影，不久前独立创意制做一种，专程跑来西湖想喝一杯龙井茶叶，住一所古风古韵的大房子</p>
+                  <span class="ts-card-foot-icon">
+                    <b class="ts-card-icon-1"></b>
+                    <i>34</i>
+                    <b class="ts-card-icon-2"></b>
+                    <i>50</i>
+                  </span>
+                </div>
+              </div>
+
+
+            </div>
+
+            <!-- 评论end -->
+          </div>
+        </div>
+
+      </div>
+      <!-- 文章end -->
+      <!-- 侧边栏start -->
+      <div class="artical-right">
+        <div class="msg-center aside-box">
+          <div class="msg-center-up">
+            <div class="blueberrypai-icon">
+              <img src="./images/aside-logo_03.png" alt="">
+              <h1>蓝莓派</h1>
+            </div>
+            <div class="square-btn">
+              <p class="tiezi-num">20</p>
+              <p class="tiezi-name">贴子</p>
+            </div>
+            <div class="square-btn">
+              <p class="tiezi-num">30</p>
+              <p class="tiezi-name">评论</p>
+            </div>
+            <div class="square-btn">
+              <p class="tiezi-num">120</p>
+              <p class="tiezi-name">关注</p>
+            </div>
+          </div>
+          <div class="msg-center-down">
+            <div class="circle-btn add"><a href="#"></a></div>
+            <div class="circle-btn msg"><a href="#"></a></div>
+          </div>
+        </div>
+        <div class="other-blog aside-box">
+          <h3 class="other-blog-title">作者的其他文章
+          </h3>
+          <ul class="blog-list">
+            <li><a href="#">适可为止吧，其他文章</a></li>
+            <li><a href="#">适可为止吧，其他文章</a></li>
+            <li><a href="#">适可为止吧，其他文章</a></li>
+            <li><a href="#">适可为止吧，其他文章</a></li>
+          </ul>
+        </div>
+        <div class="hot-recommend aside-box">
+          <h3 class="other-blog-title">热门推荐
+          </h3>
+          <ul class="blog-list">
+            <li><a href="#">热梦推荐，哇哦 </a></li>
+            <li><a href="#">热梦推荐，哇哦 </a></li>
+            <li><a href="#">热梦推荐，哇哦 </a></li>
+            <li><a href="#">热梦推荐，哇哦 </a></li>
+
+          </ul>
+        </div>
+      </div>
+      <!-- 侧边栏end -->
+    </div>
+  </div>
+  <!-- 底部start -->
+  <div class="footer">
+    <div class="blin-content">
+      <div class="link-left">
+        <span>友情链接</span>
+        <p class="link-left-content">
+          <a href="#">乐乎</a>
+          <a href="#">豆爸</a>
+          <a href="#">黄球</a>
+          <a href="#">旅游</a>
+          <a href="#">乐乎</a>
+          <a href="#">豆爸</a>
+          <a href="#">黄球</a>
+          <a href="#">旅游</a>
+          <a href="#">乐乎</a>
+          <a href="#">旅游</a>
+          <a href="#">乐乎</a>
+          <a href="#">豆爸</a>
+          <a href="#">黄球</a>
+          <a href="#">旅游</a>
+          <a href="#">乐乎</a>
+          <a href="#">旅游</a>
+          <a href="#">乐乎</a>
+          <a href="#">豆爸</a>
+          <a href="#">黄球</a>
+          <a href="#">旅游</a>
+          <a href="#">乐乎</a>
+          <a href="#">旅游</a>
+          <a href="#">乐乎</a>
+          <a href="#">豆爸</a>
+          <a href="#">黄球</a>
+          <a href="#">旅游</a>
+          <a href="#">乐乎</a>
+          <a href="#">豆爸</a>
+          <a href="#">黄球</a>
+          <a href="#">旅游</a>
+          <a href="#">乐乎</a>
+          <a href="#">豆爸</a>
+          <a href="#">黄球</a>
+          <a href="#">旅游</a>
+        </p>
+      </div>
+      <div class="link-right">
+        <div class="weibo">
+          <img src="./images/footer-ewm1.jpg" alt="">
+          <span>微博二维码</span>
+        </div>
+        <div>
+          <img src="./images/footer-ewm2.jpg" alt="">
+          <span>微信二维码</span>
+        </div>
+        <div class="connect">
+          <p>电话：88888888</p>
+          <p><i>邮编：100100</i><i>传真：9989898</i></p>
+          <p>邮箱：2287108347@qq.com</p>
+          <p>地址：中古韩元市东方镇夏宁村19号2栋8楼</p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="bot-content">
+        <span><a href="#">关于我们</a></span>
+        <span><a href="#">联系我们</a></span>
+        <span><a href="#">加入我们</a></span>
+        <span><a href="#">团队成员</a></span>
+        <span><a href="#">商务合作</a></span>
+        <p class="bot-foot">
+          <em>版权所有</em>
+          <em>京ICP备案号</em>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 底部end -->
+  <script src="./js/jquery-3.6.3.min.js"></script>
+  <script src="./js/yuezhang.js"></script>
+</body>
+
+</html>
